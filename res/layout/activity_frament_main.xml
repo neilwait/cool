@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FramentMainActivity" >
+
+    <fragment
+        android:id="@+id/farment_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        class="linpeng.frament.PhoneFrament" />
+
+    <fragment
+        android:id="@+id/farment_main"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        class="linpeng.frament.MainFrament" />
+
+    <fragment
+        android:id="@+id/farment_accessory"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        class="linpeng.frament.AccessoryFrament" />
+
+    <fragment
+        android:id="@+id/farment_cart"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        class="linpeng.frament.CartFrament" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_radio_group_back" >
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_alignParentBottom="true"
+            android:checkedButton="@+id/main_radio_btn1"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/main_radio_btn1"
+                android:layout_width="0dp"
+                android:layout_height="49dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_radio_common"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_radio_main"
+                android:onClick="mainClick" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="49dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_radio_common"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_radio_phone"
+                android:onClick="phoneClick" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="49dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_radio_common"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_radio_accessory"
+                android:onClick="accessoryClick" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="49dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_radio_common"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_radio_cart"
+                android:onClick="cartClick" />
+        </RadioGroup>
+    </RelativeLayout>
+
+</RelativeLayout>

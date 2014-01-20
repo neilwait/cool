@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CoolPad</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_frament_main">FramentMainActivity</string>
+    <string name="phone">手机</string>
+    <string name="main">主页</string>
+    <string name="accessory">配件</string>
+    <string name="cart">购物车</string>
+    <string name="news_details">新闻详情</string>
+    <string name="title_activity_news_details">NewsDetailsActivity</string>
+
+</resources>
