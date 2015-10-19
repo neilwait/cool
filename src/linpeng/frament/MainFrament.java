@@ -20,7 +20,11 @@ import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-
+/**
+ * Ö÷ÐÂÎÅ
+ * @author Administrator
+ *
+ */
 public class MainFrament extends Fragment{
 
 	private FragmentActivity activity;

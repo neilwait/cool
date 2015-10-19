@@ -29,7 +29,11 @@ import android.widget.ListView;
 import android.widget.Toast;
 import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView.OnItemClickListener;
-
+/**
+ * Åä¼þÁÐ±í
+ * @author Administrator
+ *
+ */
 public class AccessoryFrament extends Fragment{
 
 	private FragmentActivity activity;

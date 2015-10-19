@@ -7,8 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-public class MainViewPagerAdapter extends PagerAdapter{
-
+public class MainViewPagerAdapter extends PagerAdapter{ 
 	List<ImageView> imageViews;
 	
 	public MainViewPagerAdapter(List<ImageView> imageViews){

@@ -22,7 +22,11 @@ import android.widget.ListView;
 import android.widget.Toast;
 import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView.OnItemClickListener;
-
+/**
+ * 手机列表
+ * @author Administrator
+ *
+ */
 public class PhoneFrament extends Fragment{
 	private FragmentActivity activity;
 	private ListView listView;

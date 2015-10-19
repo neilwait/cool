@@ -3,7 +3,11 @@ package linpeng.domain;
 import java.lang.ref.SoftReference;
 
 import android.graphics.Bitmap;
-
+/**
+ * …Ã∆∑¿‡
+ * @author Administrator
+ *
+ */
 public class Accessory {
 
 	private String accessoryDescribe;
